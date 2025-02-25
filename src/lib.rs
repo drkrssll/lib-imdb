@@ -38,7 +38,7 @@ pub async fn get_show_id(show_name: &str) -> Result<String> {
         println!("{}: {}", count + 1, title);
     }
 
-    println!("\nWhich one?");
+    println!("\nWhich result?");
 
     let mut input = String::new();
     std::io::stdin().read_line(&mut input)?;
